@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+    color: white;
+    background-color: #1e1e1e;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.announcement-container{
+    text-align: center;
+    font-size: 4.5rem;
+    background-image: linear-gradient(170deg, lightblue, blue, purple, purple);
+    text-shadow: 3px 3px 10px black;
+}
+
+
+.announcement-text{
+    color: white;
+    user-select: none;
+}
+
+
+.navigation-container{
+    padding-right: 1%;
+    display: flex;
+    justify-content:center;
+    font-size: 2rem;
+    gap: 1%;
+    padding-top: 5%;
+}
+
+.navigation-home{
+    cursor: default;
+    transition: font-size 1s ease;
+}
+
+
+
+.navigation-products{
+    transition: font-size 1s ease;
+}
+
+.navigation-support{
+    transition: font-size 1s ease;
+}
+
+.navigation-home:hover{
+    font-size: 2.2rem;
+}
+
+.navigation-products:hover{
+    
+    font-size: 2.2rem;
+}
+
+.navigation-support:hover{
+    font-size: 2.2rem;
+}
+
+
